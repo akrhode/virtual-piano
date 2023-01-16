@@ -30,6 +30,10 @@ body {
   box-sizing: border-box;
 }
 
+.white-key.active {
+  background-color: #ccc;
+}
+
 .black-keys {
   position: relative;
   display: flex;
@@ -42,6 +46,10 @@ body {
   box-sizing: border-box;
   position: absolute;
   background-color: #000;
+}
+
+.black-key.active {
+  background-color: #333;
 }
 
 .black-key:nth-child(1) {
